@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Search, X, TrendingUp, History, Shirt, ArrowRight } from "lucide-react";
+import { Search, X, TrendingUp, History, Zap, Sparkles, ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export function CommandSearch({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
